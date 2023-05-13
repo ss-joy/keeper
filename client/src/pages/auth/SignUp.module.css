@@ -1,0 +1,48 @@
+.signup-container {
+  margin: auto;
+  width: 30%;
+  border: 2px solid palevioletred;
+  border-radius: 10px;
+  padding: 30px;
+}
+h2 {
+  text-align: center;
+  font-size: 2.6rem;
+}
+
+.signup {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup input {
+  margin-bottom: 40px;
+  height: 1.4rem;
+}
+.signup button {
+  width: 130px;
+  align-self: center;
+  font-size: 1.3rem;
+  padding: 0.9em;
+}
+
+@media only screen and (max-width: 1171px) {
+  .signup-container {
+    width: 60%;
+    padding: 40px;
+  }
+}
+
+@media only screen and (max-width: 423px) {
+  .signup-container {
+    width: 80%;
+    padding: 20px;
+  }
+  .signup button {
+    width: 130px;
+    align-self: center;
+    font-size: 1.3rem;
+    padding: 0.6em;
+  }
+}
